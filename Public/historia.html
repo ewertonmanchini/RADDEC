@@ -6,7 +6,7 @@
     <meta name="description"content="Raddec">
     <meta name="keywords" content="HTML, PHP, JavaScript, NodeJS, Laravel, CSS">
     <meta name="author" content="Ewerton Manchini">
-    <title>Raddec Industria - Historia</title>
+    <title>Raddec Industria - História</title>
     <style>
         body {
             padding-top: 20px;
@@ -14,19 +14,18 @@
             padding-right: 20px;
             background-color: rgb(226, 222, 216);
         }
-            .quadro{
-                padding: 10px;
-                background-color: rgb(177, 177, 177);
+        .objeto {
+                display: flex;
+                flex-direction: column;
+                flex-direction: row;
+                width: 800px;
+                height: 400px;
                 border: 1px solid black;
-                display: flex;/*ativa o flex*/
-                flex-direction: row;/*alinhamento em linha*/
-                width: 200px;
-                flex-wrap: wrap;/*quebra a linha quando ultrapassa o tamanho 200*/
             }
-            .titulo{
+        .titulo{
                 color: darkblue;
                 text-decoration: underline;
-                font: italic bold 30px Georgia, serif;
+                font: italic bold 20px Georgia, serif;
             }
         </style>
 </head>
@@ -37,14 +36,46 @@
     <p>Avenida Pedro Caetano Rodrigues, nº 5443</p>
     <p>Distrito Industrial Augusto Bortoli Razia, Rondonópolis - MT</p>
     <p>CEP 78.746-702</p>
-     <tr>
-        <td height="40"><a href="../index.html">Pagina Inicial</a></td>
-         <td><a href="../Public/descarte.html">Descarte Adequado</a></td>
-     </tr>
+     <center><tr>
+        <td height="40"><a href="../index.html">|Pagina Inicial</a></td>
+         <td><a href="../Public/gestao.html">|Gestão de Pessoas</a></td>
+         <td><a href="../Public/qualidade.html">|Política de Qualidade</a></td>
+         <td><a href="../Public/vendas.html">|Central de Vendas</a></td>
+         <td><a href="../Public/fale.html">|Fale Conosco</a></td>
+     </tr></center>
      <hr>
-     <div class="quadro">
-        <div>1</div>
+     <br>
+     <div class="titulo">QUEM SOMOS</div>
+     <div>Fundada em 2003, a Raddec é uma indústria especializada na fabricação 
+         de padrões e postes de entrada, utilizado com o fim de regularizar a 
+         ligação elétrica do estabelecimento ao sistema de distribuição de energia.</div>
+    <br>
+     <div>Somos uma empresa 100% brasileira, que garante em sua fabricação, 
+         bom funcionamento do produto produzido, segurança e durabilidade. </div>
+    <br>
+     <div class="titulo">VISÃO, MISSÃO E VALORES</div>
+     <div>Nossos princípios são pautados na Missão, Visão e Valores da empresa.</div>
+     <br>
+     <div class="objeto">
+        <img src="../Imagens/Missao visao valores.png">
      </div>
-    
+     <br>
+     <div class="titulo">HISTÓRIA</div>
+     <br>
+    <div>Fundada em 2003, a Raddec é uma montadora de Padrões de Entrada de Energia 
+        que surgiu para atender o mercado varejista de Lojas de Materiais para Construção 
+        em Rondonópolis-MT. Era comum as lojas da cidade arcarem com prejuízos devido 
+        à necessidade de troca do produto por estar em desacordo com as normas técnicas da 
+        concessionária de energia. Em Rondonópolis poucas lojas se dispunham a comercializar 
+        esse tipo de produto por causa desses constrangimentos e perdas financeiras.</div>
+    <br>
+    <div>Focando no controle de qualidade, processos eficientes e treinamento de pessoal 
+        qualificado, aliado a preços competitivos, a Raddec é atualmente líder no segmento 
+        em Mato Grosso e distribui padrões para lojas em toda Região Sul, Vale do Araguaia, 
+        Cuiabá, além de diversas construtoras e Grupo Energisa.</div>
+    <br>
+    <div>O compromisso com a qualidade faz da Raddec uma empresa respeitada e que mantém 
+        ótimo relacionamento com seus clientes, fornecedores e colaboradores, conquistando 
+        inclusive revendas que já haviam excluído o padrão de energia de sua lista de produtos.</div>
 </body>
 </html>
