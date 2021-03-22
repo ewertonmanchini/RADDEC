@@ -9,24 +9,31 @@
     <title>Raddec Industria - Gestão de Pessoas</title>
     <style>
         body {
+            background: url(../Imagens/FachadaT.png) no-repeat center center fixed ;
+            background-size: cover;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 20px;
-            background-color: rgb(226, 222, 216);
+            background-color: rgb(255, 255, 255);
         }
-        .objeto {
-                display: flex;
-                flex-direction: column;
-                flex-direction: row;
-                width: 800px;
-                height: 400px;
-                border: 1px solid black;
-            }
-            .titulo{
-                color: darkblue;
-                text-decoration: underline;
-                font: italic bold 20px Georgia, serif;
-            }
+        .container img {
+            max-width: 300px;
+            max-height:300px;
+            width: auto;
+            height: auto;
+        }
+        .container {
+            clear: both;
+            margin-top: 10px;
+        }
+        img {
+            vertical-align: top
+        }
+        .titulo{
+            color: darkblue;
+            text-decoration: underline;
+            font: italic bold 20px Georgia, serif;
+        }
         </style>
 </head>
 <body>
@@ -53,10 +60,11 @@
          Venha fazer parte deste time. Envie seu currículo para:
          <td><a href="mailto:raddec@raddec.com.br">raddec@raddec.com.br</a></td> </div>
 
-     <br>
-     <div class="objeto">
-        <div>1</div>
+     <div class="container">
+        <img src="../Imagens/gestao1.jpeg" >
+        <img src="../Imagens/gestao2.jpeg" >
      </div>
+     
     
 </body>
 </html>

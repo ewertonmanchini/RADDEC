@@ -8,29 +8,37 @@
     <meta name="author" content="Ewerton Manchini">
     <title>Raddec Industria</title>
         <style>
-        body {
+         body {
+            background: url(Imagens/FachadaT.png) no-repeat center center fixed ;
+            background-size: cover;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 20px;
-            background-color: rgb(226, 222, 216);
+            background-color: rgb(255, 255, 255);
+            
         }
-            .quadro{
-                padding: 10px;
-                background-color: rgb(177, 177, 177);
-                border: 1px solid black;
-                display: flex;/*ativa o flex*/
-                flex-direction: row;/*alinhamento em linha*/
-                width: 200px;
-                flex-wrap: wrap;/*quebra a linha quando ultrapassa o tamanho 200*/
-            }
-            .titulo{
-                color: darkblue;
-                text-decoration: underline;
-                font: italic bold 20px Georgia, serif;
-            }
+        .container img {
+            max-width: 300px;
+            max-height:300px;
+            width: auto;
+            height: auto;
+        }
+        .container {
+            clear: both;
+            margin-top: 10px;
+        }
+        img {
+            vertical-align: top
+        }
+        .titulo{
+            color: darkblue;
+            text-decoration: underline;
+            font: italic bold 20px Georgia, serif;
+        }
         </style>
 </head>
 <body>
+
     <img src="imagens/logo.jpg" ALIGN="right">
     <center><h1>Raddec industria e Comercio Ltda</h1></center>
     <br>
@@ -47,11 +55,11 @@
      <hr>
      <div class="titulo">Nossa Fábrica</div>
      <div>Instalada em Rondonópolis-MT , no distrito industrial da cidade.</div> 
-     <div>Possui xx.000 m² construídos com capacidade de produção de x.000 a x.000 toneladas/mês.</div>
-     <br>
-     <div class="quadro">
-        <div>Fotos Fachada</div>
+     <div>Possui 2.400 m² construídos com capacidade de produção de 50 a 100 peças/dia.</div>
+     <div class="container">
+         <img src="Imagens/Fachada.jpeg">
+         <img src="Imagens/fachada2.jpeg">
      </div>
-    
+
 </body>
 </html>
